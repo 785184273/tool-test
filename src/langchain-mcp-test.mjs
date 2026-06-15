@@ -71,7 +71,7 @@ const runAgentWithTools = async (query) => {
 
 
   if (response.tool_calls && response.tool_calls.length > 0) {
-    // console.log(response.tool_calls)
+    console.log(response.tool_calls)
     /**
      * 有工具调用，开始执行工具调用
      */
